@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int i;
-    float vt[N], *punt;
+    float vt[N], *punt=vt;
     printf("holaa");
     for(i = 0;i<N; i++)
     {
