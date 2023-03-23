@@ -1,11 +1,17 @@
+
+#include<time.h>
+#include<stdlib.h>
+#include<stdio.h>
 #define N 20
+
 int main(){
     int i;
-    double vt[N];
+    float vt[N];
+    printf("holaa");
     for(i = 0;i<N; i++)
     {
         vt[i]=1+rand()%100;
-        printf("%f ", vt[i]);
+        printf("%.2f", vt[i]);
     }
     return 0;
 }
